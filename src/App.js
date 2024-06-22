@@ -1,22 +1,7 @@
-import { useState } from "react"
+import LoginPage from "./components/pages/LoginPage"
 
 function App() {
-  // state (état, données)
-  const [prenom, setPrenom] = useState("");
-
-
-  // comportements
-  const handlePrenomChange = (event) => {
-
-  }
-  const handleSubmit = (event) => {
-
-  }
-
-  // affichage (render)
-  return <>
-
-  </>
+  return <LoginPage/>
 }
 
 export default App
