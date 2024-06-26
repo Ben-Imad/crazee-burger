@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 
 export default function ErrorPage() {
   return (
-      <div>
-          <button>
-              <Link to={`/`}>Retournez vers la page d'accueil</Link>
-          </button>
+    <div>
+      <h1>ErrorPage</h1>
+      <Link to={`/`}>
+        <button>Retournez vers la page d'accueil</button>
+      </Link>
+
     </div>
   )
 }
